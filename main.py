@@ -8,7 +8,7 @@ from backend.routers import user
 app = FastAPI(debug=True)
 
 origins = [
-    "http://localhost:5174",
+    "http://localhost:5173",
     # Add more origins here
 ]
 
